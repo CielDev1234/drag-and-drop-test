@@ -1,0 +1,143 @@
+/* Layout */
+   body {
+	  margin:0;
+	  padding:0;
+	  font-family: sans-serif;
+	  background-image:url(https://i.imgur.com/07t2mb2.gif);
+	  background-repeat:repeat;
+	  color:#ACACAC;
+   }
+   h1 {
+	  margin-bottom:50px;   
+   }
+   #container {
+	  width:960px;
+	  margin:0 auto; 
+	  padding:1em;  
+   }
+   #dragElements {
+	  list-style:none;
+	  padding:0;
+	  margin:0 0 1em;
+	  height:40px;  
+   }
+   #dragElements li {
+	  display:inline-block;
+	  padding:0.5em 1em;
+	  margin:0 1em 1em 0;
+	  border: 1px solid #000000;
+	  border-radius: 6px;
+	  color:#2D2D2D; 
+   }
+   .dragg * {
+      pointer-events: none !important;
+   }
+
+   
+   /* Demo One */
+   #spanText{
+	  color:rgba(248,124,50,1.00);   
+   }
+   #resetBox {
+	  float:right;
+	  background-color:#CBCBCB;  
+   }
+   #resetBox:hover {
+	  background-color:#A3A3A3;
+   }
+   
+   #blueBox {
+	  background-color:#257B95;   
+   }
+   #blueBox:hover {
+	   background-color:#2F95B3;
+	   border:1px solid #2F95B3;
+   }
+   #turquoiseBox {
+	  background-color:#1F8A70;   
+   }
+   #turquoiseBox:hover {
+	  background-color:#33B393;
+	  border:1px solid #33B393;  
+   }
+   #greenBox {
+	  background-color:#BEDB39;   
+   }
+   #greenBox:hover {
+	  background-color:#C8EF17;
+	  border:1px solid #C8EF17;   
+   }
+   #yellowBox {
+	  background-color:#FFE11A;   
+   }
+   #yellowBox:hover {
+	  background-color:#F4FF1A;
+	  border:1px solid #F4FF1A;  
+   }
+   #orangeBox {
+	  background-color:#FD7400;   
+   }
+   #orangeBox:hover {
+	  background-color:#F58900;
+	  border:1px solid #F58900;  
+   }
+
+   #dropAreaBox,
+   #dropAreaText {
+	  border:6px dashed #CFCFCF;
+	  border-radius: 10px;
+	  padding:80px 10px;
+	  text-align:center;
+	  margin-bottom:60px;
+	  color:#ACACAC;
+	  font-size:3em;
+   }
+    
+   .dropBoxHover {
+	   border:6px dashed #000000 !important;
+   }
+
+   .blueBoxHover {
+	   background-color:rgba(21,164,211,0.19);
+	   color:#257B95 !important;
+	   border:6px dashed #257B95 !important;
+   }
+   .turquoiseBoxHover {
+	   background-color:rgba(28,208,163,0.23);
+	   color:#1F8A70 !important;
+	   border:6px dashed #1F8A70 !important;
+   }
+   .greenBoxHover {
+	   background-color:rgba(79,185,36,0.32);
+	   color:#BEDB39 !important;
+	   border:6px dashed #BEDB39 !important;
+   }
+   .yellowBoxHover {
+	   background-color:rgba(249,255,51,0.23);
+	   color:#FFE11A !important;
+	   border:6px dashed #FFE11A !important;
+   }
+   .orangeBoxHover {
+	   background-color:rgba(255,149,19,0.21);
+	   color:#FD7400 !important;
+	   border:6px dashed #FD7400 !important;
+   }
+   
+   pre {
+	margin-top: -30px;  
+   }
+   
+   
+   /* Clearfix Utils */
+  .clearfix {
+	  *zoom: 1; }
+  
+  .clearfix:before,
+  .clearfix:after {
+	  display: table;
+	  line-height: 0;
+	  content: ""; }
+  
+  .clearfix:after {
+	  clear: both; 
+	}
